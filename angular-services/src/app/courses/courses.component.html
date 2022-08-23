@@ -1,1 +1,5 @@
-<p>courses works!</p>
+<ul>
+  <li *ngFor="let course of courses">
+    <strong>{{ course.name }} : </strong> <span>{{ course.description }}</span>
+  </li>
+</ul>

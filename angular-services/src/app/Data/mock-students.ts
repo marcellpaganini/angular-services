@@ -1,6 +1,6 @@
 import { Student } from '../Models/student';
 
-export const STUDENT: Student[] = [
+export const STUDENTS: Student[] = [
   { id: 1, firstName: 'Mike', lastName: 'Wilson', courseId: 101 },
   { id: 1, firstName: 'Andre', lastName: 'Bosse', courseId: 101 },
   { id: 1, firstName: 'Ruth', lastName: 'Scott', courseId: 102 },
